@@ -1,0 +1,9 @@
+.settings
+.pydevproject
+/bin
+/.pydevproject
+/.vscode/*
+/results/*
+/src/test/*
+/src/__pycache*
+/target

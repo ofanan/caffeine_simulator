@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/github/ben-manes/caffeine/2.8.5/caffeine-2.8.5.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/github/ben-manes/caffeine/caffeine/2.8.5/caffeine-2.8.5.jar" sourcepath="M2_REPO/com/github/ben-manes/caffeine/caffeine/2.8.5/caffeine-2.8.5-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/github/ben-manes/caffeine/guava/2.8.5/guava-2.8.5.jar" sourcepath="M2_REPO/com/github/ben-manes/caffeine/guava/2.8.5/guava-2.8.5-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/github/ben-manes/caffeine/jcache/2.8.5/jcache-2.8.5.jar" sourcepath="M2_REPO/com/github/ben-manes/caffeine/jcache/2.8.5/jcache-2.8.5-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/github/FastFilter/fastfilter_java/1.0/fastfilter_java-1.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/github/Baqend/Orestes-Bloomfilter/2.2.2/Orestes-Bloomfilter-2.2.2.jar" sourcepath="M2_REPO/com/github/Baqend/Orestes-Bloomfilter/2.2.2/Orestes-Bloomfilter-2.2.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/github/FastFilter/fastfilter_java/fastfilter/1.0/fastfilter-1.0.jar" sourcepath="M2_REPO/com/github/FastFilter/fastfilter_java/fastfilter/1.0/fastfilter-1.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/github/FastFilter/fastfilter_java/jmh/1.0/jmh-1.0.jar" sourcepath="M2_REPO/com/github/FastFilter/fastfilter_java/jmh/1.0/jmh-1.0-sources.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/aether-api-1.8.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/aether-connector-wagon-1.8.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/aether-impl-1.8.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/aether-spi-1.8.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/aether-util-1.8.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/akka-actor_2.11-2.3.4-spark.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/arquillian-config-api-1.0.2.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/arquillian-config-impl-base-1.0.2.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/arquillian-container-spi-1.0.2.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/arquillian-container-test-api-1.0.2.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/arquillian-container-test-impl-base-1.0.2.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/arquillian-container-test-spi-1.0.2.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/arquillian-core-api-1.0.2.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/arquillian-core-spi-1.0.2.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/arquillian-gwt-1.0.0.Alpha2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/arquillian-test-api-1.0.2.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/arquillian-test-spi-1.0.2.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/auto-common-0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/auto-service-1.0-rc2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/base-1.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/bloom-filter-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/byte-buddy-1.12.7.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/byte-buddy-agent-1.12.7.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/checker-qual-3.12.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/commons-lang3-3.12.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/commons-logging-api-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/commons-pool2-2.4.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/config-1.4.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/core-0.17.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/elemental2-promise-1.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/error_prone_annotations-2.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/failureaccess-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/fastutil-8.5.8.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/google-collections-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/gson-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/guava-18.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/guava-31.0.1-jre.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/guava-annotations-r03.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/guava-base-r03.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/guava-gwt-31.0.1-jre.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/guava-io-r03.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/guava-testlib-31.0.1-jre.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/hamcrest-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/HdrHistogram-2.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/htrace-core4-4.1.0-incubating.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/j2objc-annotations-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/jackson-core-asl-1.9.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/jackson-mapper-asl-1.9.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/javapoet-1.12.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/javapoet-1.13.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/jedis-2.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/jmh-kotlin-benchmark-archetype-1.34.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/jsinterop-annotations-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/jsr305-3.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/junit.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/junit-4.13.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/log4j-1.2.12.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/maven-aether-provider-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/maven-model-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/maven-model-builder-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/maven-repository-metadata-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/maven-settings-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/maven-settings-builder-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/mockito-core-4.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/netty-buffer-4.0.21.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/netty-codec-4.0.21.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/netty-codec-http-4.0.21.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/netty-common-4.0.21.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/netty-handler-4.0.21.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/netty-transport-4.0.21.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/netty-transport-native-epoll-4.0.21.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/objenesis-3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/openml-h2o-1.0.20.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/pax-exam-junit4-4.13.5.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/pax-exam-link-mvn-4.13.5.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/plexus-cipher-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/plexus-classworlds-2.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/plexus-component-annotations-1.5.5.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/plexus-container-default-1.5.5.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/plexus-interpolation-1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/plexus-sec-dispatcher-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/plexus-utils-2.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/rxjava-1.0.0-rc.10.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/rxnetty-0.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/rxnetty-contexts-0.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/scala_library.min.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/scala3-library_3-3.1.3-RC1-bin-20220217-dbfe1b5-NIGHTLY.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/scala-library-2.12.10.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/shrinkwrap-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/shrinkwrap-descriptors-api-base-2.0.0-alpha-3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/shrinkwrap-descriptors-spi-2.0.0-alpha-3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/shrinkwrap-resolver-api-1.0.0-beta-7.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/shrinkwrap-resolver-api-maven-1.0.0-beta-7.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/shrinkwrap-resolver-impl-maven-1.0.0-beta-7.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/slf4j-api-1.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/slf4j-api-1.7.12.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/testng-7.5.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/wagon-file-1.0-beta-7.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/wagon-http-lightweight-1.0-beta-7.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/wagon-http-shared-1.0-beta-7.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/wagon-provider-api-1.0-beta-7.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-17.0.2/JARs/xbean-reflect-3.4.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

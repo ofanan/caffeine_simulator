@@ -15,150 +15,28 @@
     <dependencies>
 
 		<dependency>
-		    <groupId>site.ycsb</groupId>
-		    <artifactId>root</artifactId>
-		    <version>0.17.0</version>
-		    <type>pom</type>
-		</dependency>
-
-		<dependency>
-		    <groupId>com.typesafe</groupId>
-		    <artifactId>config</artifactId>
-		    <version>1.4.2</version>
-		</dependency>
-
-		<dependency>
-		    <groupId>junit</groupId>
-		    <artifactId>junit</artifactId>
-		    <version>4.13.2</version>
-		    <scope>test</scope>
-		</dependency>
-
-        <dependency>
-            <groupId>org.awaitility</groupId>
-            <artifactId>awaitility</artifactId>
-            <version>${awaitility.version}</version>
-        </dependency>
-        
-        <!-- The follwing 2 entries are used for Orestes github CBF. -->
-        <dependency>
-            <groupId>com.github.Baqend</groupId>
-            <artifactId>Orestes-Bloomfilter</artifactId>
-            <version>2.2.2</version>
-        </dependency>
-
-        <dependency>
-            <groupId>redis.clients</groupId>
-            <artifactId>jedis</artifactId>
-            <version>3.2.0</version>
-        </dependency>
-
-		<dependency>
-			<groupId>com.google.guava</groupId>
-			<artifactId>guava</artifactId>
-			<version>27.0-jre</version>
-		</dependency>
-
-		<dependency>
-		    <groupId>com.github.FastFilter</groupId>
-		    <artifactId>fastfilter_java</artifactId>
-		    <version>1.0</version>
-		</dependency>
-
-		<dependency>
-		    <groupId>org.testng</groupId>
-		    <artifactId>testng</artifactId>
-		    <version>7.5</version>
-		    <scope>test</scope>
-		</dependency>
-
-        <!-- The follwing 2 entries should solve the famos "unknown scala.serializable" error -->
-		<dependency>
-		    <groupId>com.typesafe.akka</groupId>
-		    <artifactId>akka-stream_2.12</artifactId>
-		    <version>2.6.18</version>
-		</dependency>
-
-		<dependency>
-		    <groupId>org.apache.commons</groupId>
-		    <artifactId>commons-lang3</artifactId>
-		    <version>3.12.0</version>
-		</dependency>
-
-		<dependency>
-		    <groupId>org.apache.commons</groupId>
-		    <artifactId>commons-compress</artifactId>
-		    <version>1.21</version>
+		    <groupId>org.cache2k</groupId>
+		    <artifactId>cache2k-api</artifactId>
+		    <version>2.6.1.Final</version>
 		</dependency>
 
     </dependencies>
 
-
     <repositories>
 
         <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
+            <id>elasticsearch</id>
+            <url>https://mvnrepository.com/artifact/org.elasticsearch/elasticsearch</url>
         </repository>
 
         <repository>
-            <id>mvnrepository.com1</id>
-            <url>https://mvnrepository.com/artifact/</url>
+            <id>cache2k</id>
+            <url>https://mvnrepository.com/artifact/org.cache2k/cache2k-api</url>
         </repository>
 
-        <repository>
-            <id>mvnrepository.com2</id>
-            <url>https://mvnrepository.com/artifact/com.typesafe.akka/akka-actor</url>
-        </repository>
-
-        <repository>
-            <id>mvnrepository.com3</id>
-            <url>https://mvnrepository.com/artifact/net.alchim31.maven/scala-maven-plugin</url>
-        </repository>
-
-        <repository>
-            <id>mvnrepository.comComodal</id>
-            <url>https://mvnrepository.com/artifact/systems.comodal/collision</url>
-        </repository>
-
-        <repository>
-            <id>mvnrepository.com5</id>
-            <url>https://mvnrepository.com/artifact/com.squareup/javapoet</url>
-        </repository>
-
-        <repository>
-            <id>mvnrepository.comAkka</id>
-            <url>https://mvnrepository.com/artifact/com.typesafe.akka/akka-stream</url>
-        </repository>
-
-        <repository>
-            <id>mvnrepository.comScala</id>
-            <url>https://mvnrepository.com/artifact/org.scala-lang/scala-library</url>
-        </repository>
-
-        <repository>
-            <id>mvnrepository.comOrgApache</id>
-            <url>https://mvnrepository.com/artifact/org.apache.commons/commons-lang3</url>
-        </repository>
-
-        <repository>
-            <id>mvnrepository.comCompress</id>
-            <url>https://mvnrepository.com/artifact/org.apache.commons/commons-compress</url>
-        </repository>
-
-        <repository>
-            <id>mvnrepository.comJunit</id>
-            <url>https://mvnrepository.com/artifact/junit/junit</url>
-        </repository>
-
-        <repository>
-            <id>repo.spring.io</id>
-            <url>https://repo.spring.io/plugins-release//</url>
-        </repository>
-        
         <repository>
 			<id>central</id>
-			<url>http://repo1.maven.org/maven2/</url>
+			<url>https://repo1.maven.org/maven3/</url>
 			<snapshots>
 			<enabled>false</enabled>
 			</snapshots>

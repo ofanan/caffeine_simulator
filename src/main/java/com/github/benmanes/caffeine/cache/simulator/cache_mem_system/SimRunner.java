@@ -15,8 +15,8 @@ public class SimRunner {
   	String runF2 			= "umass-storage:C:\\Users\\ofana\\Documents\\traces\\umass\\storage\\F2.spc.bz2";
   	String runF1 			= "umass-storage:C:\\Users\\ofana\\Documents\\traces\\umass\\storage\\F1.spc.bz2";
   	String runScarab 	= "scarab:C:\\Users\\ofana\\Documents\\traces\\scarab\\scarab.recs.trace.20160808T073231Z.xz";
-  	String runWiki1 	= "wikipedia:C:\\Users\\ofana\\Documents\\traces\\wiki.1190448987.gz";
-  	String runWiki2 	= "wikipedia:C:\\Users\\ofana\\\\Documents\\traces\\wiki2.1191403252.gz";
+  	String runWiki1 	= "wikipedia:C:\\Users\\ofana\\Documents\\traces\\wiki\\wiki.1190448987.gz";
+  	String runWiki2 	= "wikipedia:C:\\Users\\ofana\\\\Documents\\traces\\wiki\\wiki2.1191403252.gz";
   	String runCorda		= "corda:C:\\Users\\ofana\\Documents\\traces\\corda\\corda.trace_vaultservice.gz";
   	
  	MyConfig.setTraceFileName (runWiki1);

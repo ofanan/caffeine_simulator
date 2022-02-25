@@ -100,14 +100,14 @@ public final class Simulator extends AbstractActor {
     self().tell(START, self());
   }
 
-//  @Override
-//  public Receive createReceive() {
-//    return receiveBuilder()
-//        .matchEquals(START, msg -> broadcast())
-//        .matchEquals(ERROR, msg -> context().stop(self()))
-//        .match(PolicyStats.class, this::reportStats)
-//        .build();
-//  }
+  @Override
+  public Receive createReceive() {
+    return receiveBuilder()
+        .matchEquals(START, msg -> broadcast())
+        .matchEquals(ERROR, msg -> context().stop(self()))
+        .match(PolicyStats.class, this::reportStats)
+        .build();
+  }
 
   /** Broadcast the trace events to all of the policy actors. */
   private void broadcast() {
@@ -178,13 +178,14 @@ public final class Simulator extends AbstractActor {
   		MyConfig.setInitialIteration	(currIteration);
   		MyConfig.setIteration					(currIteration);
     	MyConfig.setPolicies 					(args[2]);
-      	System.out.printf("hererj");
     	System.out.printf("Running %d iterations, runMode=%d\n", finalIteration - currIteration, runMode);
   	}
   	else {
   		finalIteration = maxNumOfIterations;
   	}
   	currIteration 	= MyConfig.getIteration();
+  	System.out.printf("2\n");
    	akka.Main.main(new String[] { Simulator.class.getName() } );
+  	System.out.printf("3\n");
     }
 }

@@ -73,7 +73,8 @@ public class SetOfIndicators<K> {
   
   // Temporal checks, for internal usage 
   protected int 					deltaUpdatesCnt, fullUpdatesCnt;
-  protected boolean 			parseTraceOnly = false;
+  protected boolean 			parseTraceOnly = false; // When True, skip any algorithm, and merely use the simulation to parse the trace, and write a list of accessed keys to an output file
+  protected String parsedTraceFileName; // When parseTraceOnly==True, write to this file the list of accessed keys.
 
   // C'tor
   public SetOfIndicators (String policyName) {
@@ -90,6 +91,9 @@ public class SetOfIndicators<K> {
   	minUpdateInterval 		= MyConfig.GetDoubleParameterFromConfFile	("minimal-update-interval");
   	verbose								= MyConfig.GetIntParameterFromConfFile 		("verbose");
   	this.parseTraceOnly					= (MyConfig.GetIntParameterFromConfFile 		("parse_trace_only") == 1)? true : false;
+  	if (this.parseTraceOnly) {
+    	this.parsedTraceFileName = MyConfig.getTraceFileName().get(0).split(":")[1] + ":" + MyConfig.getTraceFileName().get(0).split(":")[2] + ".txt"; 
+  	}
     missp									= MyConfig.GetDoubleParameterFromConfFile	("missp");
     runMode				 				= MyConfig.GetIntParameterFromConfFile		("run-mode");
     deltaIndicatorSize 		= MyConfig.GetDoubleParameterFromConfFile	("delta-indicator-size");
@@ -549,8 +553,7 @@ public class SetOfIndicators<K> {
   public void handleRequest (K key, boolean isInCache) {
     reqCnt++;
     if (this.parseTraceOnly) {
-    	MyConfig.writeStringToFile("scarab.recs.trace.20160808T073231Z.xz.txt", String.format("%016X\n", key));
-    	//System.out.printf ("%016X\n", key);
+    	MyConfig.writeStringToFile(this.parsedTraceFileName, String.format("%016X\n", key));
     	return;
     }
     

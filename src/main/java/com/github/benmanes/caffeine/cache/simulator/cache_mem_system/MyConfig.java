@@ -26,13 +26,13 @@ import com.typesafe.config.ConfigFactory;
 // - Writes output to the desired output files (under the directory "results")
 // - Allows setting concrete trace file, iteration, and policies to run, thus allowing parallel configuration
 public class MyConfig {
-  static final String path_to_conf_file  	= "\\src\\main\\resources\\";
-  static final String path_to_trace_file 	= "\\src\\main\\resources\\com\\github\\benmanes\\caffeine\\cache\\simulator\\parser\\";
-  static final String confFileName 				= System.getProperty("user.dir") + path_to_conf_file + "application.conf";
-  static final String path_to_res_file 		= "\\results\\";
-  static 			 String	ScndConfFileName 		= "application2.conf";	// The 2nd conf' file to run (in addition to application.conf). Used to allow running multiple sims in parallel.   
-  static List<String>	traceFileName 			= null;
-  static List<String>	policies			 			= null;
+  static final String path_to_conf_file  	 = "\\src\\main\\resources\\";
+  static final String path_to_trace_file 	 = "C:\\Users\\ofana\\Documents\\traces\\";
+  static final String confFileName 			 = System.getProperty("user.dir") + path_to_conf_file + "application.conf";
+  static final String path_to_res_file 		 = "\\results\\";
+  static 			 String	ScndConfFileName = "application2.conf";	// The 2nd conf' file to run (in addition to application.conf). Used to allow running multiple sims in parallel.   
+  static List<String>	traceFileName 		 = null;
+  static List<String>	policies			 = null;
   static 			 int 		initialIteration; // the current iteration of the simulation. Used for running multiple sequencing simulations, e.g., for different update intervals, or bw budgets.
   static 			 int 		currIteration; // the current iteration of the simulation. Used for running multiple sequencing simulations, e.g., for different update intervals, or bw budgets.
   static 			 int		numOfPoliciesRunning;
@@ -171,7 +171,7 @@ public class MyConfig {
   		System.out.println ("***Error: couldn't write to file " + fileName + " due to the following exception: " + e.getMessage());
   		System.exit(0);
     }
-	}
+  }
 
   // Returns a File (java's file descriptor) for a given fileName.
   public static File getFile (String fileName) {
@@ -354,7 +354,7 @@ public class MyConfig {
 
   // Returns the names of the trace files running in the trace.
   public static List<String> getTraceFileName() {
-  	return (traceFileName == null)? 
+  	return (traceFileName == null)?  // If the field traceFileName is already set, read return it. Else, return return the value for the key "traces.path" from the conf' file ("application.conf"). 
   			getStringListParameterFromFile ("traces.paths", confFileName) : traceFileName;
   }
 

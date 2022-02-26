@@ -184,8 +184,6 @@ public final class Simulator extends AbstractActor {
   		finalIteration = maxNumOfIterations;
   	}
   	currIteration 	= MyConfig.getIteration();
-  	System.out.printf("2\n");
    	akka.Main.main(new String[] { Simulator.class.getName() } );
-  	System.out.printf("3\n");
     }
 }

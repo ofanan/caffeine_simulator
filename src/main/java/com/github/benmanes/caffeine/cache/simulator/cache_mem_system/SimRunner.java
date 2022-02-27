@@ -21,7 +21,7 @@ public class SimRunner {
   	String runCorda	  = "corda:" 	     + tracesPath + "corda.trace_vaultservice.gz";
   	String runGradle  = "gradle:"        + tracesPath + "gradle\\gradle.build-cache.xz";
   	
- 	MyConfig.setTraceFileName (runF2);
+ 	MyConfig.setTraceFileName (runF1);
   
   	javax.swing.SwingUtilities.invokeLater(new Runnable() {
       	public void run() {

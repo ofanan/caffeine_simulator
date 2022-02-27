@@ -190,5 +190,6 @@
 	<classpathentry kind="lib" path="lib/expiringmap-0.5.10.jar"/>
 	<classpathentry kind="lib" path="lib/fliptables-1.1.0.jar"/>
 	<classpathentry kind="lib" path="lib/google-collect-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/cache2k-api-2.6.1.Final.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

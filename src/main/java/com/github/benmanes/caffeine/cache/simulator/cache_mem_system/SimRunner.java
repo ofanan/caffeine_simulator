@@ -9,7 +9,7 @@ public class SimRunner {
   	// This allows running the program multiple times in parallel, each time with a different trace.
   	// For running concatenation of several traces, do NOT call MyConfig.setTraceFileName from here, 
   	// and instead, write the requested traces names within application.conf file.
-	String tracesPath = "C:\\Users\\ofana\\Documents\\traces\\";
+	String tracesPath = "C:\\Users\\ofana\\Google Drive\\Comnet\\traces\\";
   	String runP8 	  = "arc:" 			 + tracesPath + "arc\\P8.lis";
   	String runP6 	  = "arc:" 			 + tracesPath + "arc\\P6.lis";
   	String runP3 	  = "arc:" 		 	 + tracesPath + "arc\\P3.lis";
@@ -21,7 +21,7 @@ public class SimRunner {
   	String runCorda	  = "corda:" 	     + tracesPath + "corda.trace_vaultservice.gz";
   	String runGradle  = "gradle:"        + tracesPath + "gradle\\gradle.build-cache.xz";
   	
- 	MyConfig.setTraceFileName ("umass-storage:" + tracesPath + "umass\\storage\\WS1.spc.bz2");
+ 	MyConfig.setTraceFileName (runWiki2);
   
   	javax.swing.SwingUtilities.invokeLater(new Runnable() {
       	public void run() {
